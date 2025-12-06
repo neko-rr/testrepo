@@ -1,0 +1,168 @@
+/* 共通部品 */
+html {
+  font-family: Inter;
+  color: #333;
+  letter-spacing: 0.05em;
+  line-height: 1.5;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+.u-wrapper {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 100px;
+
+  @media screen and (max-width: 768px) {
+    padding: 0 20px;
+  }
+}
+
+.u-section__title {
+  font-size: 32px;
+  font-weight: 700px;
+  text-align: center;
+
+  @media screen and (max-width: 768px) {
+    font-size: 24px;
+  }
+}
+
+/* 個別部品 */
+
+/*--------------------------------
+header
+---------------------------------*/
+.header {
+  display: flex;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  justify-content: space-between;
+  align-items: center;
+
+  @media screen and (max-width: 768px) {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+}
+
+.header__title {
+  font-size: 40px;
+
+  @media screen and (max-width: 768px) {
+    font-size: 20px;
+  }
+}
+
+.header__nav {
+  display: flex;
+  gap: 16px;
+}
+a{
+  background-color: transparent;
+  text-decoration: none;
+  color: #333;
+}
+
+.u-wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 100px;
+
+  @media screen and (max-width: 768px) {
+    padding: 0 20px;
+  }
+}
+
+.u-sectionWrapper {
+  display: flex;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+
+  @media screen and (max-width: 768px) {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    gap: 24px;
+  }
+}
+
+/*--------------------------------
+about
+---------------------------------*/
+.about__img-wrapper{
+  display: flex;
+  gap: 40px;
+}
+@media screen and (max-width: 768px) {
+  .about__img-wrapper {
+    flex-direction: column;
+  }
+}
+
+.about__text-wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+
+.about__img {
+  max-width: 200px;
+}
+
+.about__name {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+/*--------------------------------
+works
+---------------------------------*/
+.works__list{
+  display: flex;
+  justify-content: center;
+  gap: 40px
+  weight: 100%;
+}
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    gap: 24px;
+  }
+}
+.works__item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+}
+
+.works__img {
+  width: 100%;
+}
+
+.works__caption {
+  font-size: 16px;
+  text-align: center;
+}
+
+/*--------------------------------
+footer
+---------------------------------*/
+.footer {
+  padding: 8px 0px;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.footer__text {
+  font-size: 16px;
+  text-align: center;
+
+}
